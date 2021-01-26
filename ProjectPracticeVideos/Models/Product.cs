@@ -27,7 +27,7 @@ namespace ProjectPracticeVideos.Models
         public string description {get; set;} 
 
         [Display(Name = "Enter Product Price")]
-        [DisplayFormat(DataFormatString = "(0:C)")]
+        [DisplayFormat(DataFormatString = "{0:C}")]
         [Required(ErrorMessage = "{0} is required")]
         public decimal unitPrice {get; set;} 
 
