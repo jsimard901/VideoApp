@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using ProjectPracticeVideos.Controllers;
+using ProjectPracticeVideos.Models;
 
 namespace ProjectPracticeVideos.Data
 {
@@ -14,7 +14,7 @@ namespace ProjectPracticeVideos.Data
         {
             
         }
-        
+
         public DbSet<Product> Products {get; set;}
 
     }

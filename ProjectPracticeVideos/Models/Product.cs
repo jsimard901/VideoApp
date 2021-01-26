@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ProjectPracticeVideos.Controllers
+namespace ProjectPracticeVideos.Models
 {
     public class Product
     {
