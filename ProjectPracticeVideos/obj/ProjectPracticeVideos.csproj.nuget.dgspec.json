@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\Code_School\\ProjectPracticeVideos\\ProjectPracticeVideos.csproj": {}
+    "C:\\Users\\student\\Code_School\\VideoApp\\ProjectPracticeVideos\\ProjectPracticeVideos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\Code_School\\ProjectPracticeVideos\\ProjectPracticeVideos.csproj": {
+    "C:\\Users\\student\\Code_School\\VideoApp\\ProjectPracticeVideos\\ProjectPracticeVideos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Code_School\\ProjectPracticeVideos\\ProjectPracticeVideos.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Code_School\\VideoApp\\ProjectPracticeVideos\\ProjectPracticeVideos.csproj",
         "projectName": "ProjectPracticeVideos",
-        "projectPath": "C:\\Users\\student\\Code_School\\ProjectPracticeVideos\\ProjectPracticeVideos.csproj",
+        "projectPath": "C:\\Users\\student\\Code_School\\VideoApp\\ProjectPracticeVideos\\ProjectPracticeVideos.csproj",
         "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Code_School\\ProjectPracticeVideos\\obj\\",
+        "outputPath": "C:\\Users\\student\\Code_School\\VideoApp\\ProjectPracticeVideos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,6 +50,16 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -57,6 +67,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [

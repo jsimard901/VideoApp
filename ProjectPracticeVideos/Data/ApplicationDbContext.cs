@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ProjectPracticeVideos.Controllers;
 
 namespace ProjectPracticeVideos.Data
 {
@@ -11,6 +12,10 @@ namespace ProjectPracticeVideos.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+            
         }
+        
+        public DbSet<Product> Products {get; set;}
+
     }
 }
